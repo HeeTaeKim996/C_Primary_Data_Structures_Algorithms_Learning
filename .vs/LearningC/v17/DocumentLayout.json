@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Heetae\\source\\repos\\LearningC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\LinkedList.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Member.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\Member.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\First.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\First.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\StringMatch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\StringMatch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\IntStack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\IntQueue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Sortings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\Sortings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\IntStack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7B919EA4-D98C-49FB-8C96-B4A62B57151A}|LearningC\\LearningC.vcxproj|solutionrelative:LearningC\\IntQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstdio||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 188,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Member.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Member.h",
+              "RelativeDocumentMoniker": "LearningC\\Member.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Member.h",
+              "RelativeToolTip": "LearningC\\Member.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-11T07:51:22.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.h",
+              "RelativeDocumentMoniker": "LearningC\\LinkedList.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.h",
+              "RelativeToolTip": "LearningC\\LinkedList.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-11T07:48:07.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StringMatch.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\StringMatch.h",
+              "RelativeDocumentMoniker": "LearningC\\StringMatch.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\StringMatch.h",
+              "RelativeToolTip": "LearningC\\StringMatch.h",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswIcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-10T08:18:11.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IntStack.c",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.c",
+              "RelativeDocumentMoniker": "LearningC\\IntStack.c",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.c",
+              "RelativeToolTip": "LearningC\\IntStack.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-09T05:04:16.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IntStack.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.h",
+              "RelativeDocumentMoniker": "LearningC\\IntStack.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntStack.h",
+              "RelativeToolTip": "LearningC\\IntStack.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-09T05:04:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "cstdio",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstdio",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstdio",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstdio",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\include\\cstdio",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-10T08:27:14.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IntQueue.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.h",
+              "RelativeDocumentMoniker": "LearningC\\IntQueue.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.h",
+              "RelativeToolTip": "LearningC\\IntQueue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-07T12:26:16.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sortings.h",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Sortings.h",
+              "RelativeDocumentMoniker": "LearningC\\Sortings.h",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\Sortings.h",
+              "RelativeToolTip": "LearningC\\Sortings.h",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-08T13:06:19.355Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedList.c",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.c",
+              "RelativeDocumentMoniker": "LearningC\\LinkedList.c",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\LinkedList.c",
+              "RelativeToolTip": "LearningC\\LinkedList.c",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-11T12:37:40.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IntQueue.c",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.c",
+              "RelativeDocumentMoniker": "LearningC\\IntQueue.c",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\IntQueue.c",
+              "RelativeToolTip": "LearningC\\IntQueue.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-07T12:26:23.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "First.c",
+              "DocumentMoniker": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\First.c",
+              "RelativeDocumentMoniker": "LearningC\\First.c",
+              "ToolTip": "C:\\Users\\Heetae\\source\\repos\\LearningC\\LearningC\\First.c",
+              "RelativeToolTip": "LearningC\\First.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-27T06:42:26.906Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

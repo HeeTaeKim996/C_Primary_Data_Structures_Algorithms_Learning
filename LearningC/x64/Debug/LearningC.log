@@ -1,0 +1,20 @@
+﻿  First.c
+C:\Users\Heetae\source\repos\LearningC\LearningC\StringMatch.h(61,11): warning C4244: 'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'First.c'을(를) 컴파일하는 중)
+  
+C:\Users\Heetae\source\repos\LearningC\LearningC\StringMatch.h(273,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'First.c'을(를) 컴파일하는 중)
+  
+C:\Users\Heetae\source\repos\LearningC\LearningC\StringMatch.h(274,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'First.c'을(를) 컴파일하는 중)
+  
+C:\Users\Heetae\source\repos\LearningC\LearningC\First.c(89,9): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Heetae\source\repos\LearningC\LearningC\First.c(189,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+      C:\Users\Heetae\source\repos\LearningC\LearningC\First.c(189,12):
+      서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+      C:\Users\Heetae\source\repos\LearningC\LearningC\First.c(189,12):
+      서식 문자열에서 '%Id'을(를) 사용하는 것이 좋습니다.
+      C:\Users\Heetae\source\repos\LearningC\LearningC\First.c(189,12):
+      서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  
+  LearningC.vcxproj -> C:\Users\Heetae\source\repos\LearningC\x64\Debug\LearningC.exe
