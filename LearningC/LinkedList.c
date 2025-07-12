@@ -4,26 +4,26 @@
 #include "Member.h"
 #include "LinkedList.h"
 
-static Node* AllocNode()
+static LinkedList_Node* AllocNode()
 {
-	return calloc(1, sizeof(Node));
+	return calloc(1, sizeof(LinkedList_Node));
 }
 
-static void SetNode(Node* n, const Member* x, const Node* next)
+static void SetNode(LinkedList_Node* n, const Member* x, const LinkedList_Node* next)
 {
 	n->data = *x;
 	n->next = next;
 }
 
-inline void LinkedList_Initialize(List* list)
+void LinkedList_Initialize(LinkedList* list)
 {
 	list->head = NULL;
 	list->crnt = NULL;
 }
 
-inline Node* LinkedList_Search(List* list, const Member* x, int compare(const Member* x, const Member* y))
+LinkedList_Node* LinkedList_Search(LinkedList* list, const Member* x, int compare(const Member* x, const Member* y))
 {
-	Node* ptr = list->head;
+	LinkedList_Node* ptr = list->head;
 	while (ptr != NULL)
 	{
 		if (compare(&ptr->data, x) == 0)
@@ -36,14 +36,14 @@ inline Node* LinkedList_Search(List* list, const Member* x, int compare(const Me
 	return NULL;
 }
 
-inline void LinkedList_InsertFront(List* list, const Member* x)
+void LinkedList_InsertFront(LinkedList* list, const Member* x)
 {
-	Node* ptr = list->head;
+	LinkedList_Node* ptr = list->head;
 	list->head = list->crnt = AllocNode();
 	SetNode(list->head, x, ptr);
 }
 
-inline void LinkedList_InsertRear(List* list, const Member* x)
+void LinkedList_InsertRear(LinkedList* list, const Member* x)
 {
 	if (list->head == NULL)
 	{
@@ -51,7 +51,7 @@ inline void LinkedList_InsertRear(List* list, const Member* x)
 	}
 	else
 	{
-		Node* ptr = list->head;
+		LinkedList_Node* ptr = list->head;
 		while (ptr->next != NULL)
 		{
 			ptr = ptr->next;
@@ -61,41 +61,123 @@ inline void LinkedList_InsertRear(List* list, const Member* x)
 	}
 }
 
-inline void LinkedList_RemoveFront(List* list)
+void LinkedList_RemoveFront(LinkedList* list)
 {
 	if (list->head != NULL)
 	{
-		Node* ptr = list->head->next;
+		LinkedList_Node* ptr = list->head->next;
 		free(list->head);
 		list->head = list->crnt = ptr;
 	}
 }
 
-inline void LinkedList_RemoveRear(List* list)
+void LinkedList_RemoveRear(LinkedList* list)
 {
-	
+	if (list->head != NULL)
+	{
+		if (list->head->next == NULL)
+		{
+			LinkedList_RemoveFront(list);
+		}
+		else
+		{
+			LinkedList_Node* ptr = list->head;
+			LinkedList_Node* pre = NULL;
+			while (ptr->next != NULL)
+			{
+				pre = ptr;
+				ptr = ptr->next;
+			}
+
+			pre->next = NULL;
+			free(ptr);
+			list->crnt = pre;
+		}
+	}
 }
 
-inline void LinkedList_RemoveCurrent(List* list)
+void LinkedList_RemoveCurrent(LinkedList* list)
 {
+	if (list->head != NULL)
+	{
+		if (list->head == list->crnt)
+		{
+			LinkedList_RemoveFront(list);
+		}
+		else
+		{
+			LinkedList_Node* ptr = list->head;
+			while (ptr->next != list->crnt)
+			{
+				ptr = ptr->next;
+			}
+			ptr->next = list->crnt->next;
+			free(list->crnt);
+			list->crnt = ptr;
+		}
+	}
 }
 
-inline void LinkedList_Clear(List* list)
+void LinkedList_Clear(LinkedList* list)
 {
+	if (list->head != NULL)
+	{
+		LinkedList_Node* ptr = list->head;
+		while (ptr->next != NULL)
+		{
+			LinkedList_Node* next = ptr->next;
+			free(ptr);
+			ptr = next;
+		}
+		free(ptr);
+		list->head = NULL;
+	}
+	list->crnt = NULL;
 }
 
-inline void LinkedList_PrintCurrent(const List* list)
+void LinkedList_PrintCurrent(const LinkedList* list)
 {
+	if (list->crnt == NULL)
+	{
+		printf("선택한 노드가 없습니다");
+	}
+	else
+	{
+		Member_PrintMember(&list->crnt->data);
+	}
 }
 
-inline void LinkedList_PrintLnCurrent(const List* list)
+void LinkedList_PrintLnCurrent(const LinkedList* list)
 {
+	if (list->crnt == NULL)
+	{
+		printf("선택한 노드가 없습니다\n");
+	}
+	else
+	{
+		Member_PrintLnMember(&list->crnt->data);
+	}
 }
 
-inline void LinkedList_Print(const List* list)
+void LinkedList_Print(const LinkedList* list)
 {
+	if (list->head != NULL)
+	{
+		puts("모두보기");
+		LinkedList_Node* ptr = list->head;
+		while (ptr != NULL)
+		{
+			Member_PrintLnMember(&ptr->data);
+			ptr = ptr->next;
+		}
+	}
+	else
+	{
+		printf("노드가 없습니다\n");
+	}
 }
 
-inline void LinkedList_Terminate(List* list)
+void LinkedList_Terminate(LinkedList* list)
 {
+	LinkedList_Clear(list);
 }

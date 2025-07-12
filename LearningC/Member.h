@@ -1,8 +1,10 @@
 #ifndef ___Member
 #define ___Member
-#define _CRT_SECURE_NO_WARNINGS
+
+
 #include <stdio.h>
 #include "string.h"
+
 
 typedef struct
 {
@@ -34,8 +36,8 @@ inline Member Member_ScanMember(const char* message, int sw)
 {
 	Member tmp;
 	printf("%s하는 데이터를 입력하세요\n", message);
-	if (sw & MEMBER_NO) { printf("번호 : "), scanf("%d", &tmp.no); }
-	if (sw & MEMBER_NAME) { printf("이름 : "), scanf("%s", tmp.name); }
+	if (sw & MEMBER_NO) { printf("번호 : "), scanf_s("%d", &tmp.no); }
+	if (sw & MEMBER_NAME) { printf("이름 : "), scanf_s("%s", tmp.name, sizeof(tmp.name)); }
 	return tmp;
 }
-#endif ___Member
+#endif

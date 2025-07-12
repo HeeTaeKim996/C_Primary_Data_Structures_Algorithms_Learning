@@ -6,6 +6,7 @@
 #include "time.h"
 #include "StringMatch.h"
 #include "Member.h"
+#include "LinkedList.h"
 
 int int_cmp(const int* a, const int* b)
 {
@@ -71,7 +72,35 @@ void Print_Person(const Person persons[], int nx)
 	putchar('\n');
 }
 
+typedef enum
+{
+	TERMINATE, INS_FRONT, INS_REAR, RMV_FRONT, RMV_REAR, PRINT_CRNT, RMV_CRNT, SRCH_NO, SRCH_NAME, PRINT_ALL, CLEAR
+} Menu;
 
+Menu SelectMenu(void)
+{
+	int ch;
+	char* mstring[] =
+	{
+		"머리에 노드를 삽입", "꼬리에 노드를 삽입", "머리 노드를 삭제", "꼬리 노드를 삭제", "선택한 노드를 출력", "선택한 노드를 삭제",
+		"번호로 검색", "이름으로 검색", "모든 노드를 출력", "모든 노드를 삭제"
+	};
+	do
+	{
+		for (int i = TERMINATE; i < CLEAR; i++)
+		{
+			printf("(%2d) %-18.18s ", i + 1, mstring[i]);
+			if ((i % 3) == 2)
+			{
+				putchar('\n');
+			}
+		}
+		printf("(0) 종료 : ");
+		scanf("%d", &ch);
+	} while (ch < TERMINATE || ch > CLEAR);
+	return (Menu)ch;
+}
+/*
 void main()
 {
 
@@ -195,6 +224,68 @@ void main()
 
 	if (1)
 	{
+		Menu menu;
+		LinkedList list;
 
+		LinkedList_Initialize(&list);
+		do
+		{
+			Member x;
+			switch (menu = SelectMenu())
+			{
+			case INS_FRONT:
+				x = Member_ScanMember("머리에 삽입", MEMBER_NO | MEMBER_NAME);
+				LinkedList_InsertFront(&list, &x);
+				break;
+			case INS_REAR:
+				x = Member_ScanMember("꼬리에 삽입", MEMBER_NO | MEMBER_NAME);
+				LinkedList_InsertFront(&list, &x);
+				break;
+			case RMV_FRONT:
+				LinkedList_RemoveFront(&list);
+				break;
+			case RMV_REAR:
+				LinkedList_RemoveRear(&list);
+				break;
+			case PRINT_CRNT: {
+				LinkedList_PrintCurrent(&list);
+				break;
+			case RMV_CRNT:
+				LinkedList_RemoveCurrent(&list);
+				break;
+			case SRCH_NO:
+				x = Member_ScanMember("검색", MEMBER_NO);
+				if (LinkedList_Search(&list, &x, Member_NoCmp) != NULL)
+				{
+					LinkedList_PrintLnCurrent(&list);
+				}
+				else
+				{
+					puts("그 번호가 없습니다");
+				}
+				break;
+			case SRCH_NAME:
+				x = Member_ScanMember("검색", MEMBER_NAME);
+				if (LinkedList_Search(&list, &x, Member_NameCmp) != NULL)
+				{
+					LinkedList_PrintLnCurrent(&list);
+				}
+				else
+				{
+					puts("그 이름의 데이터가 없습니다");
+				}
+				break;
+			case PRINT_ALL:
+				LinkedList_Print(&list);
+				break;
+
+			case CLEAR:
+				LinkedList_Clear(&list);
+				break;
+			}
+			}
+		} while (menu != TERMINATE);
+		LinkedList_Terminate(&list);
 	}
 }
+*/

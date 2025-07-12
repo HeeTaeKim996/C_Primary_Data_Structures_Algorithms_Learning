@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayLinkedList.c" />
+    <ClCompile Include="CPlusMain.cpp" />
     <ClCompile Include="First.c" />
     <ClCompile Include="IntQueue.c" />
     <ClCompile Include="IntStack.c" />
     <ClCompile Include="LinkedList.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayLinkedList.h" />
     <ClInclude Include="IntQueue.h" />
     <ClInclude Include="IntStack.h" />
     <ClInclude Include="LinkedList.h" />
