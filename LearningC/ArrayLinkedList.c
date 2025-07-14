@@ -5,9 +5,9 @@
 
 static Index GetIndex(ArrayLinkedList* list)
 {
-	if (list->deleted == NULL)
+	if (list->deleted == Null)
 	{
-		return ++(list->max); // capacity 체크를 하지 않으니, 메모리 오염 가능성 있음. 교육용이니 거기까지는 안한듯?
+		return ++(list->max); // capacity 확인하지 않으니, 메모리 오염 가능성 있음. 교육용이니 안한듯
 	}
 	else
 	{
@@ -19,7 +19,7 @@ static Index GetIndex(ArrayLinkedList* list)
 
 static void DeleteIndex(ArrayLinkedList* list, Index idx)
 {
-	if (list->deleted == NULL)
+	if (list->deleted == Null)
 	{
 		list->deleted = idx;
 		list->n[idx].dNext = Null;
@@ -167,7 +167,7 @@ void ArrayLinkedList_PrintCurrent(const ArrayLinkedList* list)
 	}
 	else
 	{
-		Member_PrintMember(&list->n[list->crnt].data);		
+		Member_PrintMember(&(list->n[list->crnt].data));		
 	}
 }
 

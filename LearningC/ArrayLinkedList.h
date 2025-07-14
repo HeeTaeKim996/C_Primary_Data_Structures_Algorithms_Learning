@@ -56,5 +56,5 @@ extern "C" {
 
 #endif // __cplusplus
 
-#endif // ArrayLinkedList
+#endif // ____ArrayLinkedList
 

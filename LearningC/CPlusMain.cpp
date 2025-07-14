@@ -1,7 +1,9 @@
+/*
 #pragma once
 #include <iostream>
 #include "LinkedList.h"
 #include "Member.h"
+
 
 int main()
 {
@@ -22,3 +24,4 @@ int main()
 
 	std::cout << node->data.name << std::endl;
 }
+*/

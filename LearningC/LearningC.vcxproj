@@ -128,14 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ArrayLinkedList.c" />
+    <ClCompile Include="BinTree.c" />
+    <ClCompile Include="ChainHash.c" />
+    <ClCompile Include="CircDbLinkedList.c" />
+    <ClCompile Include="ClosedHash.c" />
     <ClCompile Include="CPlusMain.cpp" />
     <ClCompile Include="First.c" />
     <ClCompile Include="IntQueue.c" />
     <ClCompile Include="IntStack.c" />
     <ClCompile Include="LinkedList.c" />
+    <ClCompile Include="Member.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayLinkedList.h" />
+    <ClInclude Include="BinTree.h" />
+    <ClInclude Include="ChainHash.h" />
+    <ClInclude Include="CircDbLinkedList.h" />
+    <ClInclude Include="ClosedHash.h" />
     <ClInclude Include="IntQueue.h" />
     <ClInclude Include="IntStack.h" />
     <ClInclude Include="LinkedList.h" />
